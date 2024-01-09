@@ -5,7 +5,13 @@ form.addEventListener("submit", async (e) => {
   const res = await axios.get(
     `https://api.tvmaze.com/search/shows?q=${userInput}`
   );
-  const img = document.createElement("IMG");
-  img.src = res.data[0].show.image.medium;
-  document.body.append(img);
+  showImages(res.data);
 });
+
+const showImages = (shows) => {
+  for (let curr of shows) {
+    const img = document.createElement("IMG");
+    img.src = curr.show.image.medium;
+    document.body.append(img);
+  }
+};
