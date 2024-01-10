@@ -31,6 +31,44 @@ h1 {
 
 .thumbnail {
   margin: 0.2em;
+  filter: drop-shadow(0 0 0 transparent);
+
+  /* Transition for smooth animation */
+  transition: filter 0.2s ease-in-out, transform 0.2s ease-in-out;
+  position: relative;
+}
+
+.thumbnail:hover {
+  /* Change the drop-shadow on hover */
+  filter: drop-shadow(2px 2px 1px black);
+  transform: translate(-0.5px, -0.5px);
+
+  /* Add a dark overlay on hover */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Show the title on hover */
+  .thumbnail-title {
+    opacity: 1;
+  }
+}
+
+.thumbnail-title {
+  /* Customize the title styles */
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
 }
 
 #search-form {
