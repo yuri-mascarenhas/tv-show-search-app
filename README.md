@@ -8,10 +8,15 @@ This project is a simple website designed for making searches about TV shows. Th
 
 The project has the following structure:
 
-- **HTML5:** Responsible for structuring the webpage.
-- **CSS:** Provides styling to make the interface visually appealing.
-- **JavaScript (vanilla):** Utilized for handling user interactions and making asynchronous API requests.
-- **Axios:** A promise-based HTTP client for making requests to the TV shows API.
+- **HTML5 (🌐):** Responsible for structuring the webpage.
+- **CSS (🎨):** Provides styling to make the interface visually appealing.
+- **JavaScript (vanilla) (💻):** Utilized for handling user interactions and making asynchronous API requests.
+- **Axios (🚀):** A promise-based HTTP client for making requests to the TV shows API.
+- **TvMaze (📡):** A free TV Shows **REST API**
+
+### API Usage
+
+The TV Show App uses the [TV Maze API](https://www.tvmaze.com/api) to fetch information about TV shows. Please refer to the API documentation for more details on available endpoints and response formats.
 
 ## Features
 
