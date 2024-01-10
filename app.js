@@ -19,7 +19,7 @@ const showImages = (shows) => {
     const img = document.createElement("IMG");
     img.src = curr.show.image.medium;
     img.classList.add("thumbnail");
-    document.body.append(img);
+    document.querySelector(".img-container").append(img);
   }
 };
 
