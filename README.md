@@ -27,3 +27,9 @@ To run the TV Show App locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/tv-show-app.git
    ```
+
+2. Navigate to he project folder
+   ```bash
+   cd tv-show-app
+   ```
+3. Open the **'index.html'** _or_ run through something like a **live server**
