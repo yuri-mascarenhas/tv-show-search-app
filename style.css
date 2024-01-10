@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.top-bar {
+  background-color: black;
+  display: flex;
+  padding: 0.5em;
+  align-items: center;
+}
+
+.btn-default {
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #ffffff00;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0.2em 0.2em 0 white;
+}
+
+.separator {
+  background-color: white;
+}
+
+#search-form {
+  margin: 0.5em;
+}
