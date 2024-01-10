@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simple website designed for making searches about TV shows. The main objective is to enhance my understanding of making API requests using **Axios** .
+This project is a simple website designed for making searches about TV shows. The main objective of this study project is to enhance the understanding of making API requests using **Axios** .
 
 ## Project Structure
 
