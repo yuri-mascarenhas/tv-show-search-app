@@ -37,4 +37,4 @@ To run the TV Show App locally, follow these steps:
    ```bash
    cd tv-show-app
    ```
-3. Open the **'index.html'** _or_ run through something like a **live server**
+3. Open the **'index.html'** file in your browser of choice _or_ run through something like a **live server**
