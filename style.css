@@ -30,3 +30,11 @@ h1 {
 #search-form {
   margin: 0.5rem;
 }
+
+#query:focus {
+  outline: 0.1em dashed white;
+}
+
+#query {
+  border: 0;
+}
