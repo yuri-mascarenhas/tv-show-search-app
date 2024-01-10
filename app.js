@@ -18,6 +18,7 @@ const showImages = (shows) => {
   for (let curr of shows) {
     const img = document.createElement("IMG");
     img.src = curr.show.image.medium;
+    img.classList.add("thumbnail");
     document.body.append(img);
   }
 };
