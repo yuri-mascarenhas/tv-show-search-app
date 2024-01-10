@@ -25,7 +25,7 @@ The TV Show App uses the [TV Maze API](https://www.tvmaze.com/api) to fetch info
 
 ## Getting Started
 
-To run the TV Show App locally, follow these steps:
+To run the TV Show App locally, follow the steps below. Note that I installed axios using **yarn 1.22.21**
 
 1. Clone the repository to your local machine:
 
@@ -33,8 +33,22 @@ To run the TV Show App locally, follow these steps:
    git clone https://github.com/your-username/tv-show-app.git
    ```
 
-2. Navigate to he project folder
+2. Navigate to he project folder:
+
    ```bash
    cd tv-show-app
    ```
-3. Open the **'index.html'** file in your browser of choice _or_ run through something like a **live server**
+
+3. Install Axios using Yarn:
+
+   ```bash
+   yarn add axios
+   ```
+
+   _or_ using npm:
+
+   ```bash
+   npm install axios
+   ```
+
+4. Open the **'index.html'** file in your browser of choice _or_ run through something like a **live server**
