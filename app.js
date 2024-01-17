@@ -9,6 +9,7 @@ form.addEventListener("submit", async (e) => {
     },
   };
   const res = await axios.get(`https://api.tvmaze.com/search/shows`, config);
+  clearLastQuery();
   showImages(res.data);
   clearInput();
 });
@@ -25,4 +26,13 @@ const showImages = (shows) => {
 
 const clearInput = () => {
   form.elements.query.value = "";
+};
+
+const clearLastQuery = () => {
+  let myDiv = document.querySelector(".img-container");
+  if (myDiv) {
+    while (myDiv.firstChild) {
+      myDiv.removeChild(myDiv.firstChild);
+    }
+  }
 };
