@@ -26,7 +26,15 @@ h1 {
   background-color: #ffffff00;
   cursor: pointer;
   color: white;
-  box-shadow: 0.2em 0.2em 0 white;
+  box-shadow: 0.1em 0.1em 0 white;
+  transition: all 1s ease-in-out;
+}
+
+.btn-default:hover {
+  border: 1px solid #ffffff00;
+  color: black;
+  background-color: white;
+  box-shadow: none;
 }
 
 .thumbnail {
